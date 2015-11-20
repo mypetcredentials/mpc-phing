@@ -1,5 +1,5 @@
 {
-  "name": "mypetcredentials/mpc_phing",
+  "name": "mypetcredentials/mpc-phing",
   "description": "Phing tasks for MyPetCredentials",
   "type": "library",
   "license": "NoLicense",
