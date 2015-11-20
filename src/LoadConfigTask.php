@@ -1,9 +1,5 @@
 <?php
 
-namespace MPC\Task;
-
-use \Task as PhingTask;
-
 /**
  * Class LoadConfigTask
  *
