@@ -95,10 +95,8 @@ class LoadConfigTask extends PhingTask
             throw new \Exception('File content must be valid JSON');
         }
 
-        $prefix = empty($this->toProperty) ? 'config.' : $this->toProperty;
-
         foreach ($config as $key => $value) {
-            $this->project->setNewProperty($prefix . $key, $value);
+            $this->project->setNewProperty($this->toProperty .$key, $value);
         }
     }
 }
