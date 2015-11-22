@@ -5,7 +5,7 @@
  *
  * @package MPC\Task
  */
-class LoadConfigTask extends PhingTask
+class LoadConfigTask extends \ProjectComponent
 {
     /**
      * @var string
